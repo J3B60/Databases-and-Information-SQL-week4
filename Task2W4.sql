@@ -1,0 +1,1 @@
+CREATE TABLE newdept AS SELECT * FROM dept;

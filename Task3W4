@@ -1,0 +1,2 @@
+INSERT INTO newdept (deptno, dname, loc)
+VALUES (50, 'MARKETING', 'LONDON')

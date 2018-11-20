@@ -1,0 +1,1 @@
+CREATE TABLE newemp AS SELECT * FROM emp;

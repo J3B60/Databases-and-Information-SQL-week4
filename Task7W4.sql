@@ -1,0 +1,3 @@
+--ROLLBACK;
+--BEGIN TRANSACTION; UPDATE newemp SET deptno = [SELECT deptno FROM dept WHERE dname = 'SALES']; COMMIT;
+--SELECT * FROM newdept;
