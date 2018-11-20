@@ -1,0 +1,5 @@
+ROLLBACK;
+BEGIN TRANSACTION; 
+UPDATE newemp SET job = 'SALES' WHERE ename = 'SCOTT'; 
+COMMIT;
+SELECT * FROM newemp;

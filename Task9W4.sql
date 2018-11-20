@@ -1,5 +1,5 @@
 ROLLBACK;
 BEGIN TRANSACTION; 
-UPDATE newemp SET job = 'SALES'; 
+DELETE FROM newemp WHERE hiredate < '1987-01-01'; 
 --COMMIT;
 SELECT * FROM newemp;
